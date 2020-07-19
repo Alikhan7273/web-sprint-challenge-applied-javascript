@@ -28,13 +28,23 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is the DOM?
 
+    Document Object Model - The ability to manipulate html elements. The connection between our code and the webpage.
+
 2. What is an event?
+
+    Events in DOM are sent to notify code of interesting things that have taken place. Each event is represented by an object which is based on the Event interface, and may have additional custom fields and/or functions used to get additional information about what happened. Events can represent everything from basic user interactions to automated notifications of things happening in the rendering model.
 
 3. What is an event listener?
 
+    The method Event Listener() sets up a function that will be called whenever the specified event is delivered to the target. AddEventListener() works by adding a function or an object that implements EventListener to the list of event listeners for the specified event type on the EventTarget on which it's called.
+
 4. Why would we convert a NodeList into an Array?
 
+    We convert from nodelist to array because node is not an array, node list is just a collections of nodes that make returns by its properties.
+
 5. What is a component?
+
+    Components are the building block to modern application development. Being able to use HTML, CSS, and JS in a reusable way opens up new possibilities for web developers.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
